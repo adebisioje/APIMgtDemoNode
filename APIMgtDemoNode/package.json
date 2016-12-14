@@ -1,0 +1,9 @@
+{
+  "name": "apimgt-demo-node",
+  "version": "0.0.0",
+  "description": "APIMgtDemoNode",
+  "main": "app.js",
+  "author": {
+    "name": "adoje"
+  }
+}
