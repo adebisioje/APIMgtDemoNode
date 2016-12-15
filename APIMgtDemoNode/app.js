@@ -8,7 +8,7 @@ var apiVersion = '2016-10-10';
 var serviceName = "adojetestapim";
 var baseUrl = util.format("%s.management.azure-api.net", serviceName);
 
-var SharedAccessSignature = "uid=582cc3f1e947bb0082030003&ex=2016-12-17T18:56:00.0000000Z&sn=Wg6p4nZlwi/EzqYSwX15PdserSSdZvRULhTaYa1odAuk3WkwZfKg6JJxiSISwDtd+vdgC/OcxQUlSbv7XTBhgA=="
+var SharedAccessSignature = "<SharedAccessSignature>"
 
 //Get a list of 'Apis', 'Products', Groups etc 
 function get(operation) {
