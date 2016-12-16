@@ -5,7 +5,7 @@ var https = require('https');
 var apiVersion = '2016-10-10';
 
 // service name and base url - https://aka.ms/smapi#BaseURL
-var serviceName = "adojetestapim";
+var serviceName = "<servicename>";
 var baseUrl = util.format("%s.management.azure-api.net", serviceName);
 
 var SharedAccessSignature = "<SharedAccessSignature>"
