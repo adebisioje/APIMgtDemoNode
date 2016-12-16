@@ -7,6 +7,7 @@ In this demo, you will be able to create an api, a product, a policy and attach 
 
 ## GET - allows you to list apis, groups and products 
     get('apis') -> List all APIs you have created 
+## Create API - allows you to create an api
     createAPI("apis", "calcapi_id", "TheBestCalculator", "This api calculates", "http://calcapi.cloudapp.net/api");
 //attachPolicy("apis", "calcapi_id", policy);
 //createOperation("apis", "calcapi_id", "Addition", "AdditionOperation", "adds two number toger", "add?a={a}&b={b}");
